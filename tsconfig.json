@@ -5,7 +5,6 @@
     "moduleResolution": "node",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "outDir": "./dist",
-    "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -29,10 +28,14 @@
     "verbatimModuleSyntax": false
   },
   "include": [
-    "src/**/*"
+    "src/app-bundle.ts"
   ],
   "exclude": [
     "node_modules",
-    "dist"
+    "dist",
+    "src/ui/**/*",
+    "src/utils/**/*",
+    "src/types.ts",
+    "src/app.ts"
   ]
 }
