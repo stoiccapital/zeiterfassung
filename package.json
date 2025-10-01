@@ -1,0 +1,17 @@
+{
+  "name": "zeiterfassung",
+  "version": "1.0.0",
+  "description": "Zeiterfassung - Time Management Application",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": ["zeiterfassung", "time-management", "typescript"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

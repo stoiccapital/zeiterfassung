@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Compiled output
+dist/
+
+# Build artifacts
+*.js.map
+*.d.ts
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Backup files
+*.bak
+*.bak2
+
+# Local environment
+.env
+.env.local
